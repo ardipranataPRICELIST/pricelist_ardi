@@ -100,33 +100,31 @@ body.edit .wa-edit{display:block}
 <script>
 /* ====== DATA DEFAULT — bisa diedit langsung di sini ====== */
 const DEFAULT={
- wa:"6289506801472", brand:"ARDI", tagline:"Photo & Videography",
+ wa:"6289506801472", brand:"ARDI PRANATA", tagline:"Photo & Video Menu",
  slogan:"Abadikan setiap cerita dalam karya yang bermakna",
  cats:[
  {id:"lamaran",title:"Lamaran",desc:"Dokumentasi momen lamaran yang penuh haru dan kebahagiaan, dikemas secara elegan dan profesional.",pk:[
-  {n:"Paket 1",p:2500000,i:["Foto (Semua File)","50 Foto Edit","Video Highlight (2–3 Menit)","1 Fotografer","1 Videografer"]},
-  {n:"Paket 2",p:3500000,i:["Foto (Semua File)","75 Foto Edit","Video Highlight (3–5 Menit)","2 Fotografer","1 Videografer"]},
-  {n:"Paket 3",p:5000000,i:["Foto (Semua File)","100 Foto Edit","Video Highlight (3–5 Menit)","2 Fotografer","2 Videografer"]}]},
+  {n:"Paket 1",p:850000,i:["Foto (Semua File)","150 Foto Edit","all RAW Files available","1 Fotografer"]},
+  {n:"Paket 2",p:2000000,i:["Foto (Semua File)","150 Foto Edit","all RAW Files available","Video Highlight (1–2 Menit)","1 Fotografer","1 Videografer"]},
+  {n:"Paket 3",p:2300000,i:["Foto (Semua File)","200 Foto Edit","all RAW Files available","Video Highlight (3–5 Menit)","1 Fotografer","1 Videografer"]}]},
  {id:"prewedding",title:"Prewedding",desc:"Abadikan kisah cinta sebelum hari bahagia dengan hasil yang sinematik dan penuh makna.",pk:[
-  {n:"Paket 1",p:2500000,i:["Foto (Semua File)","20 Foto Edit","Video Cinematic (1–2 Menit)","1 Lokasi"]},
-  {n:"Paket 2",p:3500000,i:["Foto (Semua File)","30 Foto Edit","Video Cinematic (2–3 Menit)","2 Lokasi"]},
-  {n:"Paket 3",p:5000000,i:["Foto (Semua File)","100 Foto Edit","Video Cinematic (5–7 Menit)","2–3 Lokasi"]}]},
+  {n:"Paket 1",p:900000,i:["Foto (Semua File)","100 Foto Edit","1 Lokasi"]},
+  {n:"Paket 2",p:2300000,i:["Foto (Semua File)","100 Foto Edit","Video Cinematic (1.5-2 Menit)","1 Lokasi"]},
+  {n:"Paket 3",p:2500000,i:["Foto (Semua File)","100 Foto Edit","Video Cinematic (1.5-2 Menit)","2 Lokasi"]}]},
  {id:"wedding",title:"Wedding",desc:"Abadikan hari paling bersejarah dalam hidup Anda dengan dokumentasi yang elegan, sinematik, dan penuh makna.",pk:[
-  {n:"Paket 1",p:6000000,i:["Foto (Semua File)","100 Foto Edit","Video Highlight (3–5 Menit)","Liputan Akad atau Resepsi","1 Fotografer","1 Videografer"]},
-  {n:"Paket 2",p:8500000,i:["Foto (Semua File)","200 Foto Edit","Video Cinematic (5–7 Menit)","Liputan Akad + Resepsi","2 Fotografer","1 Videografer"]},
-  {n:"Paket 3",p:12000000,i:["Foto (Semua File)","300 Foto Edit","Video Cinematic (7–10 Menit)","Liputan Akad + Resepsi","2 Fotografer","2 Videografer"]}]},
+  {n:"Paket 1",p:1800000,i:["Foto (Semua File)","250 Foto Edit","Akad + Resepsi","2 Fotografer"]},
+  {n:"Paket 2",p:3600000,i:["Foto (Semua File)","200 Foto Edit","Wedding Teaser (1.5-2 Menit)","Akad + Resepsi","2 Fotografer","1 Videografer"]},
+  {n:"Paket 3",p:4000000,i:["Foto (Semua File)","300 Foto Edit","Wedding Teaser + Wedding Clip (3-4 Menit)","Akad + Resepsi","2 Fotografer","1 Videografer"]}]},
  {id:"ulangtahun",title:"Ulang Tahun",desc:"Abadikan keceriaan dan kebahagiaan di hari spesial dengan dokumentasi yang hidup dan berkesan.",pk:[
-  {n:"Paket 1",p:2000000,i:["Foto (Semua File)","50 Foto Edit","Video Highlight (2–3 Menit)","1 Fotografer","1 Videografer"]},
-  {n:"Paket 2",p:3000000,i:["Foto (Semua File)","50 Foto Edit","Video Highlight (3–5 Menit)","1 Fotografer","1 Videografer"]},
-  {n:"Paket 3",p:4000000,i:["Foto (Semua File)","100 Foto Edit","Video Highlight (5–7 Menit)","2 Fotografer","2 Videografer"]}]},
+  {n:"Paket 1",p:850000,i:["Foto (Semua File)","100 Foto Edit","1 Fotografer"]},
+  {n:"Paket 2",p:2000000,i:["Foto (Semua File)","100 Foto Edit","Video Highlight (2-4 Menit)","1 Fotografer","1 Videografer"]}]},
  {id:"wisuda",title:"Wisuda",desc:"Abadikan momen penuh perjuangan dan kebanggaan dengan hasil yang profesional dan berkesan.",pk:[
-  {n:"Paket 1",p:2000000,i:["Foto (Semua File)","50 Foto Edit","Video Highlight (2–3 Menit)","1 Fotografer","1 Videografer"]},
-  {n:"Paket 2",p:3000000,i:["Foto (Semua File)","50 Foto Edit","Video Highlight (2–5 Menit)","2 Fotografer","1 Videografer"]},
-  {n:"Paket 3",p:4000000,i:["Foto (Semua File)","100 Foto Edit","Video Highlight (5–7 Menit)","2 Fotografer","2 Videografer"]}]},
+  {n:"Paket 1 Personal",p:400000,i:["Foto (Semua File)","1 Wisudawan","100 Foto Edit","1 Fotografer"]},
+  {n:"Paket 2 Family",p:550000,i:["Foto (Semua File)","1 Wisudawan + Keluarga Inti","100 Foto Edit","1 Fotografer"]},
+  {n:"Paket 3 Group",p:600000,i:["Foto (Semua File)","3 Wisudawan max","150 Foto Edit","1 Fotografer"]}]},
  {id:"aqiqah",title:"Aqiqah",desc:"Dokumentasi momen aqiqah yang penuh makna dengan sentuhan hangat dan natural.",pk:[
-  {n:"Paket 1",p:2000000,i:["Foto (Semua File)","50 Foto Edit","Video Highlight (2–3 Menit)","1 Fotografer","1 Videografer"]},
-  {n:"Paket 2",p:3000000,i:["Foto (Semua File)","50 Foto Edit","Video Highlight (3–5 Menit)","2 Fotografer","1 Videografer"]},
-  {n:"Paket 3",p:4000000,i:["Foto (Semua File)","100 Foto Edit","Video Highlight (5–7 Menit)","2 Fotografer","2 Videografer"]}]}
+  {n:"Paket 1",p:850000,i:["Foto (Semua File)","100 Foto Edit","1 Fotografer"]},
+  {n:"Paket 2",p:2000000,i:["Foto (Semua File)","100 Foto Edit","Video Highlight (2-4 Menit)","1 Fotografer","1 Videografer"]}]}
  ]};
 /* ========================================================= */
 const KEY="ardi_pricelist_v4";
